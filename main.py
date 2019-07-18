@@ -27,7 +27,7 @@ class JetbrainsLauncherExtension(Extension):
 
     def get_recent_projects_file_path(self, keyword):
         """ Returns the file path where the recent projects are stored """
-        if keyword in ['pstorm', 'webstorm', 'pycharm', 'intellij']:
+        if keyword in ['pstorm', 'webstorm', 'pycharm', 'intellij', 'goland']:
             return os.path.expanduser(
                 self.preferences.get("%s_projects_file" % keyword))
 

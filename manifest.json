@@ -91,6 +91,27 @@
       "name": "IntelliJ launcher script path",
       "description": "The location of the IntelliJ launch script file",
       "default_value": "/usr/local/bin/intellij"
+    },
+    {
+      "id": "goland_keyword",
+      "type": "keyword",
+      "name": "GoLand Projects",
+      "description": "Open Project in GoLand",
+      "default_value": "goland"
+    },
+    {
+      "id": "goland_projects_file",
+      "type": "input",
+      "name": "Open Project in GoLand",
+      "description": "The path to the location of the recent files in GoLand",
+      "default_value": "~/.GoLand2019.1/config/options/recentProjectsDirectories.xml"
+    },
+    {
+      "id": "goland_launch_script",
+      "type": "input",
+      "name": "GoLand launcher script path",
+      "description": "The location of the GoLand launch script file",
+      "default_value": "/usr/local/bin/goland"
     }
   ]
 }

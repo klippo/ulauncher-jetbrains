@@ -32,6 +32,7 @@ The following Jetbrains IDEs are supported:
 * WebStorm
 * PyCharm
 * InteliJ
+* GoLand
 
 Before using this extension, you must create a command line launcher for your Jetbrains IDE. For that you can go to "Tools -> Create Command Line Launcher" in your IDE.
 After that, you should configure the path to the created launcher in the plugin settings.
@@ -44,6 +45,7 @@ This extension suports the following keywords:
 `webstorm`-> To open a WebStorm project
 `intellij` -> To open a Intelij project
 `pycharm`-> To open a Pycharm project.
+`goland` -> To open a Goland project
 
 **Note: To avoid creating a separate extension for each IDE, I use the keyword to identify which projects to look for. Because of this, you cant change the default keywords, without changing the code.
 This will be no longer an issue after [this](https://github.com/Ulauncher/Ulauncher/issues/284) is fixed on Ulauncher side.**
